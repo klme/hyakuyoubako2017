@@ -20,5 +20,7 @@ void loop() {
   lcd.print("Hello World!");
   //1000ミリ秒待つ
   delay(1000);
+  lcd.clear();
+  delay(1000);
 }
 
